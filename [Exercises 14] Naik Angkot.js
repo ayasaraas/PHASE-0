@@ -16,7 +16,7 @@ function naikAngkot(arrPenumpang) {
       } 
     }
   
-    var jarak = (indexFinish-indexStart)
+    var jarak = Math.abs(indexFinish-indexStart)
     total = (jarak*2000)
 
    var temp = {}
