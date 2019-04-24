@@ -1,0 +1,11 @@
+function hitungJumlahKata(kalimat) {
+
+  var kalimat;
+  var arr = kalimat.split(" ");
+
+  arr=arr.length;
+  
+  return arr;
+}
+
+console.log(hitungJumlahKata("I have a dream"));
